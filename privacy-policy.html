@@ -5,27 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>2Box Agency</title>
-  <script src="asset/libs/slider/js/jquery.min.js"></script>
-  <link rel="stylesheet" href="asset/libs/slider/css/owl.carousel.min.css">
   <link rel="stylesheet" href="asset/libs/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="asset/css/index.css">
-  <link rel="stylesheet" href="asset/css/contactus.css">
+  <link rel="stylesheet" href="asset/css/privacy-policy.css">
   <link rel="stylesheet" href="asset/css/media-query.css">
   <link rel="shortcut icon" href="asset/images/favicon-removebg-preview.png" type="image/x-icon">
   <link rel="stylesheet" href="asset/Font Awesome/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- scroll to top btn -->
-    <a class="top-btn rounded-5 d-flex justify-content-center align-items-center" href="#" id="topbtn">
-      <i class="fa-solid fa-angle-up "></i>
-    </a>
-    <!-- scroll to top btn -->  
-    
-  <!--Start Header -->
+  <a class="top-btn rounded-5 d-flex justify-content-center align-items-center" href="#" id="topbtn">
+    <i class="fa-solid fa-angle-up "></i>
+  </a>
+<!--Start Header -->
   <nav class="navbar navbar-expand-md container-fluid sticky-top " aria-label="Offcanvas navbar large" id="navbar">
     <div class="container">
+      <!-- <a class="navbar-brand" href="#"><img src="images/Screenshot_2023-05-16_113330-removebg-preview.png" alt="">
+      </a> -->
       <a class="nav-logo d-flex position-relative text-decoration-none" href="index.html">
         <div class="logo1 logo2 position-relative"></div>
         <div class="logo1 logo3 position-absolute"></div>
@@ -43,133 +39,70 @@
             <div class="logo1 logo3 position-absolute"></div>
             <div class="title-2 ms-4 fw-bold">2Box <br> Agency</div>
           </a>
-          <button type="button" class="btn-close  border-0 shadow-none nav-closebtn" data-bs-dismiss="offcanvas"
-            aria-label="Close"></button>
+          <button type="button" class="btn-close  border-0 shadow-none nav-closebtn" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav  ms-auto gap-lg-5 gap-md-3  ">
-            <li class="nav-item">
-              <a class="nav-link fw-medium position-relative" href="about-us.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-medium position-relative" href="service.html">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-medium position-relative" href="team.html">Teams</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-medium position-relative active" href="contact-us.html">Contact Us</a>
-            </li>
+            <li class="nav-item"><a class="nav-link fw-medium position-relative" href="about-us.html">About</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium position-relative" href="service.html">Service</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium position-relative" href="team.html">Teams</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium position-relative " href="contact-us.html">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </div>
   </nav>
-  <!-- end-header -->
+<!-- end-header -->
 
-  <!-- Start About-heading section -->
-  <div class="container-fluid contactuspage page-main-heading p-lg-5 p-md-4 ps-md-3 p-2 ">
+  <!-- Start privacy & policy heading section -->
+  <div class="container-fluid privacy-policy-heading page-main-heading py-lg-5 py-md-4 py-md-3 py-2">
     <div class="container">
       <div class="row py-5">
         <div class="col-auto headingpage mx-auto rounded-1 px-5 ">
-          <div class=" page-heading fw-semibold">Contact Us </div>
+          <div class=" page-heading fw-semibold">Privacy & Policy </div>
           <nav aria-label="breadcrumb h-0">
             <ol class="breadcrumb d-flex page-content justify-content-center">
               <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none text-white">Home</a></li>
-              <li class="breadcrumb-item active fw-medium page-disable" aria-current="page">Contact-Us</li>
+              <li class="breadcrumb-item active fw-medium page-disable" aria-current="page">Privacy </li>
             </ol>
           </nav>
         </div>
       </div>
     </div>
   </div>
-  <!-- End about-heading section -->
+  <!-- End privacy & policy heading section -->
 
-<!-- contactus-form section start -->
-<div class="container-fluid py-lg-5 py-md-4 py-4 contactus-page">
+<!-- privacy policy section start -->
+  <div class="container-fluid py-lg-5 py-md-4 py-3 privacy-policy">
     <div class="container">
-        <div class="row gy-4">
-            <div class="col-12 text-center heading fw-semibold ">
-                Get in Touch</div>
-            <div class="col-12 sub-heading2 fw-semibold text-center m-0">How Can We Help You.</div>
-            <div class="col-lg-6 contact-form">
-              <form action="" id="myform" onsubmit="return validate();" class="row gy-lg-4 gy-md-3 gy-2">
-                <div class="col-12">
-                  <div class="inputWithIcon position-relative shadow-sm py-1">
-                    <input type="text" placeholder="Name" id="name" class="form-control shadow-none ps-5 border-0" required>
-                    <label for="name" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-regular fa-user"></i></label>
-                  </div>
-                </div>            
-                  
-                <div class="col-12">
-                  <div class="inputWithIcon position-relative shadow-sm py-1">
-                    <input type="email" placeholder="Email" id="email" class="form-control shadow-none ps-5 border-0" required>
-                    <label for="email" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-at"></i></label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="inputWithIcon position-relative shadow-sm py-1">
-                    <input type="tel" placeholder="Mobile" id="phone" class="form-control shadow-none ps-5 border-0" required>
-                    <label for="phone" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center align-items-center"><i class="fa-solid fa-phone"></i></label>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="inputWithIcon position-relative shadow-sm py-1">
-                  <textarea name="" id="message" class="form-control ps-5 shadow-none border-0" placeholder="Message" required></textarea>
-                    <label for="message" class="position-absolute start-0 top-0 h-100 d-flex justify-content-center"><i class="fa-regular fa-envelope pt-3"></i></label>
-                  </div>
-                </div>      
-                <div class="col-12 d-flex justify-content-center my-lg-4 my-md-4 my-3 pt-lg-3 pt-2">
-                  <button class="custom-btn btn border-0 rounded-0  fw-semibold px-4 py-2" type="submit" id="btn"><span id="btnText">Submit</span> </button>
-                </div>
-              </form>
+        <div class="row">
+            <div class="col-12 fw-semibold text-center welcome pb-3">Welcome to Crafting agency!</div>
+            <div class="col-12 sub-heading2 fw-semibold text-center pb-lg-2 pb-md-1 pb-0">Privacy Policy</div>
+            <div class="fw-medium mt-1 privacy-content">Last updated: May 30, 2023</div>
+            <div class="col-12 privacy-content fw-medium mt-1">At Crafting agency, accessible from one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Crafting agency and how we use it. This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in Crafting agency. This policy is not applicable to any information collected offline or via channels other than this website.</div>
+            <div class="col-12 privacy-content fw-medium mt-1">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</div>
+            <div class="col-12 privacy-heading fw-semibold mt-lg-3 mt-md-3 mt-2">Information we collect</div>
+            <div class="col-12 privacy-content fw-medium mt-1">The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.</div>
+            <div class="col-12 privacy-content fw-medium mt-1">If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide. When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.</div>
+            <div class="col-12 privacy-heading fw-semibold mt-lg-3 mt-md-3 mt-2">How we use your information</div>
+            <div class="col-12 privacy-content fw-medium mt-1">We use the information we collect in various ways, including to:</div>
+            <div class="col-12">
+                <ul class="my-lg-3 my-md-2 my-1">
+                    <li class="privacy-content mt-1 fw-medium">Provide, operate, and maintain our website</li>
+                    <li class="privacy-content mt-1 fw-medium">Improve, personalize, and expand our website</li>
+                    <li class="privacy-content mt-1 fw-medium">Understand and analyze how you use our website</li>
+                    <li class="privacy-content mt-1 fw-medium">Develop new products, services, features, and functionality</li>
+                    <li class="privacy-content mt-1 fw-medium">Send you emails</li>
+                    <li class="privacy-content mt-1 fw-medium">Provide, operate, and maintain our website</li>
+                    <li class="privacy-content mt-1 fw-medium">Find and prevent fraud</li>
+                </ul>
             </div>
-            <div class="col-lg-6 contact-detail">
-                <div class="row gy-lg-3 gy-3  align-items-center">
-                    <div class="col-12 information fw-semibold">Information</div>
-                    <div class="col-12 fw-medium title mt-1">Contact us to make an order or get more information about any tour or trip you are interested in. Our operators will provide you with all the information about your future journey.</div>
-                    <div class="col-md-6 contactpage-detail">
-                        <a href="javascript:;" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-location-dot me-3"></i> B-34, chitrakoot,  Jaipur</a>
-                    </div>
-                    <div class="col-md-6 contactpage-detail">
-                        <a href="javascript:;" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-phone me-3"></i>+91 123456789</a>
-                    </div>
-                    <div class="col-md-6 contactpage-detail">
-                        <a href="javascript:;" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-fax me-3"></i>+91 123456789</a>
-                    </div>
-                    <div class="col-md-6 contactpage-detail">
-                        <a href="javascript:;" class="d-flex align-items-center text-decoration-none"><i class="fa-solid fa-envelope me-3"></i>Demo@gmail.com</a>
-                    </div>
-                    <div class="col-md-6 contactpage-detail">
-                        <span class="d-flex align-items-center"><i class="fa-regular fa-clock me-3" ></i>Mon-Friday / 10:00AM-6:00PM</span>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <ul class="d-flex list-unstyled gap-lg-4 gap-md-4 gap-1 social-icon  mb-0">
-                        <li>
-                            <a href="" class="text-decoration-none "><i class="fa-brands fa-facebook-f d-flex justify-content-center align-items-center text-white"></i></a>
-                        </li>
-                        <li>
-                            <a href="" class="text-decoration-none"><i class="fa-brands fa-whatsapp d-flex justify-content-center align-items-center text-white"></i></a>
-                        </li>
-                        <li>
-                            <a href="" class="text-decoration-none"><i class="fa-brands fa-twitter d-flex justify-content-center align-items-center text-white"></i></a>
-                        </li>
-                        <li>
-                            <a href="" class="text-decoration-none"><i class="fa-brands fa-instagram d-flex justify-content-center align-items-center text-white"></i></a>
-                        </li>
-                      </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 mt-4 ">
-                <div class="map overflow-hidden">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14232.131732295265!2d75.7487665!3d26.9024499!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db5b556df683f%3A0x7d6f8475a2cb14a2!2sElements%20Mall!5e0!3m2!1sen!2sin!4v1685355375330!5m2!1sen!2sin" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade" height="400" width="100%"></iframe>
-                </div>
-            </div>
+            <div class="col-12 privacy-heading fw-semibold mt-lg-3 mt-md-3 mt-2">Log Files</div>
+            <div class="col-12 privacy-content fw-medium mt-1">Crafting agency follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable. The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.</div>
         </div>
     </div>
-</div>
-<!-- contactus-form section end -->
+  </div>
+<!-- privacy policy section end -->
 
  <!-- Start Footer -->
  <div class="container-fluid footer pt-lg-5 pt-md-4 pt-sm-4 pt-3 pb-lg-3 pb-2 bg-light">
@@ -255,7 +188,7 @@
 </div>
 <!-- End Footer -->
 
-  <!--Start Copyright Section -->
+<!--Start Copyright Section start-->
   <div class="container-fluid copyright bg-light pt-2 pb-3">
     <div class="container">
       <hr>
@@ -266,7 +199,7 @@
       </div>
     </div>
   </div>
-  <!-- End Copyright Section -->
+<!-- End Copyright Section end-->
 
   <script src="asset/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="asset/js/index.js"></script>
@@ -274,3 +207,5 @@
 </body>
 
 </html
+
+

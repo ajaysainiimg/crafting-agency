@@ -379,7 +379,10 @@ nav .nav-logo .title-2 {
   width: 95% !important;
 }
 .footer .subscribe {
-  font-size: 14px !important;
+  width: 40px;
+  background-color: var(--theme1);
+  font-size: 11px;
+  color: #fff;
 }
 .copyright .copyright-text {
   font-size: 11px;

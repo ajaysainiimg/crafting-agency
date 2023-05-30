@@ -1,7 +1,7 @@
 @media screen and (max-width:991px) {
   .top-btn {
-    height: 20px;
-    width: 20px;
+    height: 15px;
+    width: 15px;
     font-size: 8px
   }
   .sub-heading {
@@ -48,9 +48,8 @@
     height: auto;
     max-width: 90px;
   }
-  .contact-us input,
-  textarea {
-    font-size: 14px !important;
+  .inputWithIcon input, textarea  {
+    font-size: 14px;
   }
   .team .name {
     font-size: 15px;
@@ -239,9 +238,8 @@
     height: auto;
     max-width: 80px;
   }
-  .contact-us input,
-  textarea {
-    font-size: 12px !important;
+  .inputWithIcon input, textarea  {
+    font-size: 12px;
   }
   .team .name {
     font-size: 13px;
@@ -376,8 +374,8 @@
 
 @media screen and (max-width:576px) {
   .top-btn {
-    height: 15px;
-    width: 15px;
+    height: 13px;
+    width: 13px;
     font-size: 6px
   }
   .sub-heading {
@@ -388,7 +386,7 @@
     font-size: 13px;
   }
   .footer .footer-heading {
-    font-size: 14px;
+    font-size: 13px;
   }
   .title {
     font-size: 10px;
@@ -457,9 +455,8 @@
   .contact-us .heading-3 {
     font-size: 14px;
   }
-  .contact-us input,
-  textarea {
-    font-size: 11px !important;
+  .inputWithIcon input, textarea  {
+    font-size: 11px ;
   }
   .team .name {
     font-size: 11px;

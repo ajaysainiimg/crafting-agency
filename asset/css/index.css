@@ -12,9 +12,9 @@ body {
   position: fixed;
   right: 20px;
   background-color: var(--theme1);
-  height: 25px;
-  width: 25px;
-  font-size: 10px;
+  height: 20px;
+  width: 20px;
+  font-size: 8px;
   color: white;
   bottom: 20px;
   cursor: pointer;
@@ -354,27 +354,33 @@ nav .nav-logo .title-2 {
   color: black;
   transition: all 0.3s ease-in-out;
 }
-.footer .mainlinks:hover {
+.footer .main-links:hover {
+  color: var(--theme1) ;
+  padding-left: 5px;
+}
+/* .footer .mainlinks:hover {
   padding-left: 4px;
   color: var(--theme1);
-}
+} */
 .footer .address-detail,
 .footer .address-detail a {
   font-size: 13px;
   transition: all 0.3s ease-in-out ;
   color: rgb(99, 97, 97);
 }
+.footer .links:hover {
+  color: var(--theme1) !important;
+  padding-left: 5px;
+}
 .footer .address-detail .number {
   color: black;
-}
-.footer .address-detail a:hover {
-  color: var(--theme1) ;
-  padding-left: 5px;
 }
 .footer hr {
   width: 95% !important;
 }
-
+.footer .subscribe {
+  font-size: 14px !important;
+}
 .copyright .copyright-text {
   font-size: 11px;
 }

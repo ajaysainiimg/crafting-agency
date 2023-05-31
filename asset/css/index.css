@@ -6,7 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
 }
-
 .top-btn {
   all: unset; 
   position: fixed;
@@ -24,26 +23,26 @@ body {
   z-index: 999;
 }
 nav {
-    height: 70px;
+  height: 70px;
 }
 nav .logo1 {
-    height: 20px;
-    width: 25px;
-    background-color: var(--theme1);
+  height: 20px;
+  width: 25px;
+  background-color: var(--theme1);
 }
 nav .logo3 {
-    left: 15px;
-    top: 10px;
+  left: 15px;
+  top: 10px;
 }
 nav .nav-logo .title-2 {
-    font-size: 13px;
-    color: rgb(24, 24, 24);
-    line-height: 17px;
+  font-size: 13px;
+  color: rgb(24, 24, 24);
+  line-height: 17px;
 }
 .navbar .nav-link {
-    font-size: 14px;
-    color: rgb(159, 159, 159);
-    transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  color: rgb(159, 159, 159);
+  transition: all 0.3s ease-in-out;
 }
 .navbar .nav-link:hover,
 .navbar .nav-link.active,
@@ -51,26 +50,43 @@ nav .nav-logo .title-2 {
   color: var(--theme1);
 }
 .navbar .nav-link:before {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 2px;
-    bottom: 5px;
-    left: 0;
-    background: var(--theme1);
-    z-index: -1;
-    transform: scale(0);
-    transition: all 0.3s ease-in-out;
-  }
-  .navbar .nav-link:hover:before,
-  .navbar .nav-link:focus:before,
-  .navbar .nav-link.active:before {
-    transform: scale(1);
-  } 
-
-  .navbar .nav-offcanvas {
+  position: absolute;
+  content: "";
+  /* width: 100%; */
+  height: 2px;
+  bottom: 5px;
+  left: 0;
+  background: var(--theme1);
+  z-index: -1;
+  /* transform: scale(0); */
+  transition: all 0.3s ease-in-out;
+  width: 0;
+}
+.navbar .nav-link:hover:before,
+.navbar .nav-link:focus:before,
+.navbar .nav-link.active:before {
+  /* transform: scale(1); */
+  width: 100%;
+} 
+.navbar .nav-link:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  top: 5px;
+  right: 0;
+  background: var(--theme1);
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.navbar .nav-link:hover::after,
+.navbar .nav-link:focus::after,
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+.navbar .nav-offcanvas {
     width: 300px;
-  }
+}
 .hero-section::before {
     content: "";
     position: absolute;
@@ -95,6 +111,7 @@ nav .nav-logo .title-2 {
     color: rgb(105, 102, 102);
     line-height: 25px;
     text-align: justify;
+    transition: all 0.3s ease-in-out;
 }
 .custom-btn {
     background-color:var(--theme1) !important;
@@ -203,7 +220,7 @@ nav .nav-logo .title-2 {
 .fixed-navbar .nav-link {
   color: #000000 ;
 }
-.service .card {
+/* .service .card {
   transition: all 0.3s ease-in;
 }
 .service .card-body{
@@ -211,9 +228,9 @@ nav .nav-logo .title-2 {
   transition: all 0.3s ease-in-out;
 }
 .service .card:hover .card-body {
-  height:80%;
+  height:auto;
   padding-top: 40px;
-
+  transition: all 0.3s ease-in-out;
 }
 .service .card .card-img {
   background-color:#6874dc71 ;
@@ -230,7 +247,7 @@ nav .nav-logo .title-2 {
 }
 .service .service-img {
   max-width: 420px;
-}
+} */
 .owl-dots {
   display: flex;
   justify-content: center; 
@@ -435,3 +452,50 @@ nav .nav-logo .title-2 {
 .page-main-heading .page-disable::before {
   color: #ffffff9c;
 }
+
+
+
+/* ourservice css start */
+.ourservice .service-card .service-icon {
+  height: 70px;
+  width: 70px;
+  background-color: #e0e2e5a8;
+  font-size: 18px;
+}
+.ourservice .service-card .service-title {
+  font-size: 17px;
+  color: var(--theme1);
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+.ourservice .service-card::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--theme1);
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+.ourservice .service-card:hover::before {
+  width: 100%;
+}
+
+/* .ourservice .service-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: var(--theme1);
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+}
+.ourservice .service-card:hover::after {
+  width: 0;
+} */
+
+/* ourservice css start */

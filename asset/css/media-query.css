@@ -41,7 +41,7 @@
     font-size: 30px;
     line-height: normal;
   }
-  .service .card .card-title2 {
+  .ourservice .service-card .service-title {
     font-size: 15px;
   }
   .team .client-img {
@@ -234,7 +234,7 @@
     font-size: 28px;
     line-height: normal;
   }
-  .service .card .card-title2 {
+  .ourservice .service-card .service-title {
     font-size: 14px;
   }
   .team .client-img {
@@ -432,8 +432,13 @@
   .sub-heading2 {
     font-size: 22px;
   }
-  .service .card .card-title2 {
+  .ourservice .service-card .service-title {
     font-size: 12px;
+  }
+  .ourservice .service-card .service-icon {
+    height: 60px;
+    width: 60px;
+    font-size: 16px;
   }
   .cardimg-main {
     margin-top: -24px;

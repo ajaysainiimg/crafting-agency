@@ -1,5 +1,5 @@
 .privacy-policy-heading {
-    background:linear-gradient(to right,  #00000061,  #00000061), url(../images/privacy-policy.jpg) no-repeat;
+    background:linear-gradient(to right,  #00000061,  #00000061), url(../images/privacy\ policy.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -19,7 +19,7 @@
     color: var(--theme1);
 }
 .termscondition {
-    background:linear-gradient(to right,  #00000096,  #00000096), url(../images/Terms&Conditions.jpg) no-repeat;
+    background:linear-gradient(to right,  #00000096,  #00000096), url(../images/terms&condition.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }

@@ -123,7 +123,6 @@ nav .nav-logo .title-2 {
     right: -30%;
     border: 15px solid white;
 }
-
 .heading {
   font-size: 16px;
   color: var(--theme1);
@@ -179,8 +178,8 @@ nav .nav-logo .title-2 {
 }
 .sub-heading2 {
   font-size: 35px;
+  line-height: normal;
 }
-
 .fixed-navbar {
   top: 0;
   position: fixed !important;
@@ -204,22 +203,18 @@ nav .nav-logo .title-2 {
 .fixed-navbar .nav-link {
   color: #000000 ;
 }
-
 .service .card {
   transition: all 0.3s ease-in;
-
 }
 .service .card-body{
   height: 75px;
   transition: all 0.3s ease-in-out;
 }
-
 .service .card:hover .card-body {
-  height: calc(100%);
+  height:80%;
   padding-top: 40px;
- 
-}
 
+}
 .service .card .card-img {
   background-color:#6874dc71 ;
   max-height: 280px;
@@ -233,9 +228,6 @@ nav .nav-logo .title-2 {
   color: var(--theme1);
   transition: all 0.3s ease-in-out;
 }
-/* .service .card:hover img {
-  transform: scale(0.9);
-} */
 .service .service-img {
   max-width: 420px;
 }
@@ -247,9 +239,7 @@ nav .nav-logo .title-2 {
 .owl-dots .active span {
   width: 9px;
   height: 9px;
-
   background: var(--theme1) !important;
-
 }
 .owl-dots span {
   width: 7px;
@@ -259,7 +249,9 @@ nav .nav-logo .title-2 {
   display: block;
   border-radius: 30px;
 }
-
+.testimonal {
+  background-color: #a9a9aa29;
+}
 .team .name{
   font-size: 16px;
   color: var(--theme1);
@@ -345,10 +337,6 @@ nav .nav-logo .title-2 {
   left: 0;
   border-radius: 30px;
 }
-/* .footer .address {
-  font-size: 14px;
-  color: #000000;
-} */
 .footer .main-links {
   font-size: 14px;
   color: black;
@@ -358,10 +346,6 @@ nav .nav-logo .title-2 {
   color: var(--theme1) ;
   padding-left: 5px;
 }
-/* .footer .mainlinks:hover {
-  padding-left: 4px;
-  color: var(--theme1);
-} */
 .footer .address-detail,
 .footer .address-detail a {
   font-size: 13px;
@@ -392,7 +376,6 @@ nav .nav-logo .title-2 {
   width: 100px;
   border: 4px solid var(--theme1);
 }
-
 .cardimg-main {
   margin-top: -48px;
 }
@@ -405,7 +388,6 @@ nav .nav-logo .title-2 {
   transition: all 0.3s ease-in-out;
 }
 .social-icon li i:hover {
-  transform:scale(0.9);
   border-radius: 50%;
 }
 .fa-facebook-f:hover {
@@ -440,6 +422,7 @@ nav .nav-logo .title-2 {
 .page-main-heading .headingpage .page-heading {
   font-size: 50px;
   color: white;
+  white-space: nowrap;
 }
 .page-main-heading .page-content,
 .page-main-heading.page-content a {
@@ -452,11 +435,3 @@ nav .nav-logo .title-2 {
 .page-main-heading .page-disable::before {
   color: #ffffff9c;
 }
-
-
-
-
-
-
-
-

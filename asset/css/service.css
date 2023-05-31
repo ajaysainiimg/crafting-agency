@@ -60,7 +60,6 @@
     right: 0;
     top: 45%;
 }
-  
 .portfolio .portfolio-item:hover .link-preview {
     opacity: 1;
     visibility: visible;
@@ -86,7 +85,6 @@
     bottom: 15%;
     visibility: visible;
 }
-
 
 /* pricing section css */
 .pricing2 .pricing-card .offer-name {
@@ -121,8 +119,8 @@ font-size: 14px;
     background: var(--theme1);
     color: #fff;
     transform: rotate(45deg);
-    right: -44px;
-    top: 21px;
+    right: -38px;
+    top:22px;
     font-size: 14px;
 }
 .pricing2 .gold {
@@ -133,9 +131,7 @@ font-size: 14px;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
-/* .pricing-card-active { 
-      transform: scale(1.1);
-} */
+
 .pricing2 .pricing-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
 }

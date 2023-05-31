@@ -18,10 +18,9 @@
     transform: translateX(5px);
 }
 .contactus-page .contact-detail a:hover i {
-    color: var(--theme1) !important;
+    color: var(--theme1);
 }
 .contactus-page .contact-detail .information {
     font-size: 18px;
     letter-spacing: 1px;
 }
-

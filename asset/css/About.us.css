@@ -113,8 +113,8 @@
     color: var(--theme1) !important;
 }
 .our-project .clients-logo {
-   max-height: 150px;
-    width: auto;
+    height: auto;
+    max-width: 130px;
 }
 .our-project .clients-logo img  {
     object-fit: cover;

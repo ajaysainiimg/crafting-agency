@@ -37,7 +37,7 @@
   .content {
     position: static !important;
   }
-  .about-us .sub-heading2 {
+  .sub-heading2 {
     font-size: 30px;
     line-height: normal;
   }
@@ -172,6 +172,9 @@
     }
    .privacy-heading {
         font-size: 15px;
+   }
+   .privacy-policy .welcome {
+    font-size: 16px;
    }
         /* privacy-policy page media query end */
 }
@@ -368,6 +371,9 @@
        .privacy-content {
         font-size: 10px;
         line-height: 18px;
+       }
+       .privacy-policy .welcome {
+        font-size: 15px;
        }
         /* privacy-policy page media query end */
 }
@@ -592,6 +598,9 @@
        }
        .privacy-heading {
         font-size: 14px;
+       }
+       .privacy-policy .welcome {
+        font-size: 13px;
        }
         /* privacy-policy page media query end */
 }

@@ -214,13 +214,18 @@
   .navbar .nav-offcanvas .offcanvas-header {
     height: 70px;
   }
+  .navbar .nav-link:before {
+    display: none;
+  }
+  .navbar .nav-link:after {
+    display: none;
+  }
   .hero-section {
     height: auto;
   }
   .about-us .content .counter1 {
     font-size: 18px;
   }
-
   .about-us .content .counter-name {
     font-size: 14px;
   }
@@ -405,7 +410,7 @@
     font-size: 11px;
   }
   .hero-left {
-    margin-top: 45px;
+    margin-top: 38px;
   }
   .hero-section .hero-right .hero-img2 {
     border: 8px solid white;

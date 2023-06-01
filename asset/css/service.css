@@ -30,7 +30,7 @@
     z-index: 0;
 }
 .portfolio .portfolio-item .portfolio-img:hover:after{
-    width: 50.1%;
+    width: 50%;
 }
 .portfolio .portfolio-item .link-preview,
 .portfolio .portfolio-item .link-details {

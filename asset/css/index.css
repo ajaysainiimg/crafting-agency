@@ -336,7 +336,6 @@ nav .nav-logo .title-2 {
   background-color: var(--theme1);
 }
 
-
 /* contact us section css end */
 .footer .footer-heading {
   font-size: 15px;
@@ -452,8 +451,6 @@ nav .nav-logo .title-2 {
 .page-main-heading .page-disable::before {
   color: #ffffff9c;
 }
-
-
 
 /* ourservice css start */
 .ourservice .service-card .service-icon {
